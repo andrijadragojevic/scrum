@@ -1,0 +1,27 @@
+.note {
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: blue;
+    margin: 10px;
+}
+
+.note:hover {
+    background-color: blueviolet;
+}
+
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.column {
+    background-color: red;
+    margin: 10px;
+    height: 100vh;
+}
+
+.column:hover {
+    background-color: aqua;
+}
