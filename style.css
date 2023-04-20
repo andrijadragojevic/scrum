@@ -9,19 +9,18 @@
     background-color: blueviolet;
 }
 
-body {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    height: 100%;
-}
 
-.column {
+.col-3 {
     background-color: red;
-    margin: 10px;
     height: 100vh;
 }
 
-.column:hover {
+.col-3:hover {
     background-color: aqua;
+}
+
+.note:active {
+
+    z-index: -1;
+
 }
